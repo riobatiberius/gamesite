@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	    <style>
+			
+			*{
+background-color:brown;
+
+
+}
+h1{
+text-align:center;
+text-transform: uppercase;
+color:yellow;
+font-weight:75px;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+nav.sticky{
+  background: #4070f4;
+  padding: 13px 0;
+}
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .menu{
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 18px;
+  font-weight: 500px;
+  color: black;
+  padding: 6px 0;
+  text-decoration:none;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color: green;
+  font-size: 18px;
+  font-weight: 50px;
+  text-decoration:underline;
+}
+nav.sticky .menu a{
+  color: #FFF;
+}
+nav.sticky .menu a:hover{
+  color: #0E2431;
+}
+.navbar .media-icons a{
+  color: #4070f4;
+  font-size: 18px;
+  margin: 0 6px;
+}
+nav.sticky .media-icons a{
+  color: #FFF;
+}
+
+/* My Services CSS */
+.services{
+background:grey;
+}
+.topic,p, a{
+background:grey;
+text-decoration:none;
+}
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services .boxes .box{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  background-color: grey;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+  background: green;
+  color: #fff;
+}
+.services .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background:black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: white;
+  color: #4070f4;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #fff;
+}
+.title{
+text-align: center;
+font-weight:500%;
+font-size:20px;
+}			
+			</style>
+	<h1>This is a site that enables you to play games</h1> </head>
+<hr>
+<body>
+	<form>
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Games @Rioba</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">
+		   
+		   <a href="barandblockgame.html">GAME 1</a></div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-paint-brush"></i>
+       </div>
+       <div class="topic">
+         <a href="dinogame.html">GAME 2</a></div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">
+         <a href="index.html">GAME 3</a></div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div class="topic">GAME 4</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-camera-retro"></i>
+       </div>
+       <div class="topic">GAME 5</div>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">GAME 6</div>
+     </div
+   </div>
+ </section>
+
+</form>
+</body>
+</html>
